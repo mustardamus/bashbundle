@@ -175,12 +175,12 @@ at least 3 more steps), 2. Maybe install `curl` or `wget`, 3. Paste the
 I could copy and paste the install script from my machine onto the server, and
 run it. But what if there are multiple files? I'd still have to get them somehow
 on the server. So, 1. Open a file on the server 2. Copy and paste the script
-into it 3. Save it 4. Google how to :quit `vim`, 5. Get all necessary files on
+into it, 3. Save it, 4. Google how to :quit `vim`, 5. Get all necessary files on
 the server, 6. Execute. Seemed like a good idea, but is a loooot of work :P
 
 You guessed it, the best way is BashBundle! 1. I bundle all necessary files and
 my `setup.sh` installer script, 2. I copy the complete bundled script, 3. I
-paste it into the server terminal. 4. Win. If you know of a method that is less
+paste it into the server terminal, 4. Win. If you know of a method that is less
 work, please let me know :)
 
 ## Testing
