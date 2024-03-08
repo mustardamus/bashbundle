@@ -2,10 +2,11 @@
 
 src_path="$1"
 dest_path="$2"
-attrib="# Created with BashBundle v0.1 - https://github.com/mustardamus/bashbundle"
+attrib="# Created with BashBundle v0.2 - https://github.com/mustardamus/bashbundle"
 head='cat <<"BASHBUNDLE" > _bb.sh && bash _bb.sh && rm _bb.sh'
 foot="BASHBUNDLE"
-extractor=$(<extractor.sh)
+current_dir=`dirname $0`
+extractor=$(<$current_dir/extractor.sh)
 
 echo "$attrib" > $dest_path
 echo "$head" >> $dest_path
